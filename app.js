@@ -15,7 +15,7 @@
         content: '<main><h1>Home page</h1>Hello, welcome to my website!</main>',
     }, {
         path: '/contacts',
-        title: 'Contactos',
+        title: 'Contacts',
         content:
             '<main><h1>Contacts</h1>You can reach us at <a href="mailto:mail@example.com">mail@example.com</a></main>',
     }, {
