@@ -89,7 +89,8 @@
 
                 // And render it! We do it this way, so the content function can keep its scope,
                 // to have a semblance of state...
-                route.content()(appElem);
+                const renderFn = route.content();
+                renderFn(appElem);
             } else {
 
                 // Just splash the HTML there...
